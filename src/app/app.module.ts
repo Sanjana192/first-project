@@ -15,7 +15,6 @@ import { RouterModule, Routes} from '@angular/router';
 import { GalaryComponent } from './components/galary/galary.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { HomeComponent } from './components/home/home.component';
-import { ImageDetailsComponent } from './image-details/image-details.component';
 
 
 @NgModule({
@@ -28,8 +27,7 @@ import { ImageDetailsComponent } from './image-details/image-details.component';
     SubdivsComponent,
     GalaryComponent,
     AboutUsComponent,
-    HomeComponent,
-    ImageDetailsComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
